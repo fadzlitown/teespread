@@ -18,6 +18,16 @@ Notes:	 Hand coded for Udemy.com
    Typography
    -------------------------------------- */
 
+body{
+    -webkit-font-smoothing: antialiased;
+    text-rendering:optimizelegibility;
+}
+
+
+.well .page-header {
+    margin-top: 0;
+}
+
 
 
 /* --------------------------------------
@@ -62,6 +72,14 @@ Notes:	 Hand coded for Udemy.com
    Global Styles
    -------------------------------------- */
 
+.well, #bigSearch {
+    margin: 10px 0px;
+}
+
+.alert {
+    margin-top: 20px;
+    display: none;
+}
 
 
 /* --------------------------------------
@@ -122,6 +140,7 @@ Notes:	 Hand coded for Udemy.com
     {
         background: url('../../images/carousel_small.png') top left no-repeat;
     }
+
 	
 }
 
@@ -131,7 +150,7 @@ Notes:	 Hand coded for Udemy.com
     #myCarousel .item
     {
         /*Default background size*/
-        height: 500px;
+        height: 400px;
     }
 
     #slide1
