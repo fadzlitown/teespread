@@ -76,7 +76,7 @@
                                    <a href="#"><span class="glyphicon glyphicon-search"></span></a>
                                </li>
                                <li>
-                                   <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                                   <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> <span class="badge">0</span></a>
                                </li>
                                <li class="dropdown">
                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Designer's Store <strong class="caret"></strong></a>
@@ -105,20 +105,86 @@
 
             <div class="carousel slide" id="myCarousel">
 
-            </div><!-- end myCarousel -->
-            <div class="row">asdsd</div>
-            <div class="row">asdsd</div>
-            <div class="row">asdsd</div>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                    <li data-slide-to="1" data-target="#myCarousel"></li>
+                </ol>
 
-            <div class="row" id="bigSeaerch">
-                <div class="container">
-                    <div class="navbar-form">
-                        <input type="text" class="form-control" placeholder="Search items" id="searchItemsList">
-                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                <!-- wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active" id="slide1">
+                        <!--<img src="http://placehold.it/1200x500">-->
+                        <div class="item">
+                            <div class="carousel-caption">
+                                <h4>Teespread</h4>
+                                <p>Now everyone can design and sell your products</p>
+                            </div>
+                        </div>
+                    </div><!-- end item slide 1-->
+
+                    <div class="item" id="slide2">
+                        <div class="item">
+                            <div class="carousel-caption">
+                                <h4>Teespread</h4>
+                                <p>The Largest Merchant Design Marketplace in Malaysia!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end item slide 2-->
+
+                <!--Controls -->
+                <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+                <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+            </div><!-- end myCarousel -->
+
+            <div class="row" id="bigSearch">
+                <div class="navbar-form">
+                    <div class="col-2 col-offset-1">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ALL PRODUCTS <strong class="caret"></strong></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Tees</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hoody</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kids</a>
+                                    </li>
+                                    <li class="divider"></li>
+
+                                    <li class="dropdown-header">More Clothing</li>
+                                    <li>
+                                        <a href="#">Men</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Woman</a>
+                                    </li>
+                                </ul><!-- end dropdown-menu-->
+                            </li>
+                        </ul>
+                    </div>
+                        <div class="col-5">
+                            <input type="text" class="form-control" placeholder="Search items" id="searchItemsList">
+                        </div>
+
+                        <div class="col-1">
+                            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                        </div>
+
+                        <div class="col-2">
+                        <div class="nav navbar-nav">
+                            <button type="submit" class="btn btn-link"><span class="glyphicon glyphicon-plus"></span> YOUR DESIGN!</button>
+                        </div>
+
                     </div>
                 </div>
 
-            </div><!-- end bigSeaerch -->
+            </div><!-- end bigSearch -->
 
             <div class="row" id="productsList">
 
