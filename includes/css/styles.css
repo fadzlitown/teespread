@@ -67,18 +67,42 @@ body{
         background: url('../../images/carousel_medium.png') top left no-repeat;
     }
 
+    #feature_image{
+        background: url('http://placehold.it/940x350')top left no-repeat;
+    }
+
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
 
-.well, #bigSearch {
-    margin: 10px 0px;
+.well, #bigSearch , #productsList, #latestNews, #features, #testomonial, #buttomnav {
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .alert {
     margin-top: 20px;
     display: none;
+}
+
+.hr1
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+ul{
+    padding: 0px;
+}
+
+.buttomnav-link li{
+    height: 16px;
+    list-style: none;
+}
+
+.soc{
+    margin-bottom: 15px;
 }
 
 
@@ -103,6 +127,10 @@ body{
     #slide2
     {
         background: url('../../images/carousel_small.png') top left no-repeat;
+    }
+
+    #feature_image{
+        background: url('http://placehold.it/728x350')top left no-repeat;
     }
 	
 }
@@ -141,6 +169,10 @@ body{
         background: url('../../images/carousel_small.png') top left no-repeat;
     }
 
+    #feature_image{
+        background: url('http://placehold.it/728x350')top left no-repeat;
+    }
+
 	
 }
 
@@ -161,6 +193,10 @@ body{
     #slide2
     {
         background: url('../../images/carousel_large.png') top left no-repeat;
+    }
+
+    #feature_image{
+        background: url('http://placehold.it/1170x350')top left no-repeat;
     }
 	
 }
