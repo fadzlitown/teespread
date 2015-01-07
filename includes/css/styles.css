@@ -1,12 +1,6 @@
 /*
 
 My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
 */
 
 
@@ -63,17 +57,6 @@ body{
     font-size: 12px;
 }
 
-#productsList .seemore-big{
-    font-weight: light;
-    font-size: 12px;
-    color: #999999;
-    text-decoration: none;
-}
-
-#productsList .seemore-big:hover{
-    color: #4f4f4f;
-}
-
 #top4 .designer-store, .designer-detail{
     margin: 0px 5px 7px 5px;
     color: #4f4f4f;
@@ -92,15 +75,36 @@ body{
     margin-bottom: 10px;
 }
 
-#latestBlog .seemore-big{
+#latestBlog .blog-title{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #4f4f4f;
+}
+#latestBlog .blog-subject{
     font-weight: light;
     font-size: 12px;
-    color: #999999;
-    text-decoration: none;
+    color: #4f4f4f;
 }
 
-#latestBlog .seemore-big:hover{
+#testomonial .testo-txt p{
+    font-weight: light;
+    font-size: 12px;
     color: #4f4f4f;
+    margin-left: 5px;
+
+}
+
+.testo-area{
+    margin-bottom: 20px;
+}
+
+#buttomnav .footer-title{
+    margin: 50px 0 0 0;
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: arial;
 }
 
 
@@ -150,12 +154,32 @@ body{
    Global Styles
    -------------------------------------- */
 
+.seemore-big a{
+    font-weight: light;
+    font-size: 12px;
+    color: #999999;
+    text-decoration: none;
+}
+
+.seemore-big a:hover{
+    color: #4f4f4f;
+
+}
+
 .sectionTitle{
     font-weight: bold;
     font-size: 14px;
     color: #4f4f4f;
 }
 
+#latestBlog, #top4 .sectionTitle{
+    margin-top: 30px;
+}
+
+#buttomnav{
+    background-repeat: repeat-y ;
+    background-color: #252525;
+}
 
 
 #bigSearch, #productsList     {
@@ -184,6 +208,11 @@ body{
     margin-bottom: 30px;
 }
 
+.hr2{
+    color: #fcb13a;
+    margin-top: 5px;
+}
+
 ul{
     padding: 0px;
 }
@@ -191,16 +220,26 @@ ul{
 .buttomnav-link li{
     height: 16px;
     list-style: none;
+    font-weight: light;
+    font-size: 12px;
+    margin:5px ;
+
 }
 
-.testo-area{
-    padding-bottom: 15px;
-    display: block;
+.buttomnav-link li a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
-.testo-txt{
-    margin-bottom: 20px;
+
+.buttomnav-link li a:hover{
+    color: #357ebd;
 }
+
+#buttomnav .footer-buttom {
+    margin-bottom: 50px;
+}
+
 
 
 .soc{
