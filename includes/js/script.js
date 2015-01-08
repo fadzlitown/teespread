@@ -13,6 +13,11 @@ $(function(){
     // With JQuery
     $("#ex2").slider({});
 
+    $('#myTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+
     $('#searchItems').click(function(e){
         e.preventDefault();
         $('#successAlert').slideDown();
