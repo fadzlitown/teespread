@@ -41,9 +41,9 @@ body{
     color:#333333;
 }
 
-#productsList .product-name, .product-price{
+.product-name, .product-price{
     color: #4f4f4f;
-    margin:5px 0 5px 20px ;
+    margin:5px 0 5px 10px ;
 
 }
 

@@ -10,9 +10,13 @@ Notes:	 Hand coded for Udemy.com
 */
 
 $(function(){
+    // With JQuery
+    $("#ex2").slider({});
+
     $('#searchItems').click(function(e){
         e.preventDefault();
         $('#successAlert').slideDown();
     });
+
 
 });
