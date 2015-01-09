@@ -11,8 +11,14 @@ Notes:	 Hand coded for Udemy.com
 
 $(function(){
 
+    $('[data-toggle="popover"]').popover({trigger: 'hover','placement': 'right'});
+
+    $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').focus()
+    })
+
     $('#myTab a').click(function (e) {
-        e.preventDefault()
+        e.preventDefault();
         $(this).tab('show')
     })
 
