@@ -89,21 +89,89 @@
         </div><!--end container -->
     </div><!-- end navbar -->
 
-    <br><br><br><br>
+    <br><br><br><br><br><br>
 
     <div class="row">
         <div class="col-lg-6">
-            <p class="form-control-static">email@example.com</p>
+            <p class="form-control-static"><b>buyer@gmail.com</b></p>
             <input type="text" class="form-control" placeholder="Buyer's name">
             <br>
             <input type="text" class="form-control" placeholder="XXX-XXXXXXXX">
         </div>
 
-        <br><br>
+        <div class="col-lg-6">
+            <p><b>Address</b></p>
+            <input type="text" class="form-control" name="address1" placeholder="Address One">
+            <br>
+            <input type="text" class="form-control" name="address2" placeholder="Address Two">
+            <br>
+        </div>
+
 
         <div class="col-lg-6">
-            <textarea class="form-control" rows="3">Address</textarea>
+            <form class="form-inline">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">SUBTOTAL </div>
+                        <input type="text" class="form-control disabled" placeholder="Amount" disabled>
+                        <div class="input-group-addon">.00</div>
+                    </div>
+                </div>
+            </form>
+
+            <form class="form-inline">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">SHIPPING </div>
+                        <input type="text" class="form-control disabled" placeholder="Amount" disabled>
+                        <div class="input-group-addon">.00</div>
+                    </div>
+                </div>
+            </form>
+
+            <form class="form-inline">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">TOTAL</div>
+                        <input type="text" class="form-control disabled" placeholder="Amount" disabled>
+                        <div class="input-group-addon">.00</div>
+                    </div>
+                </div>
+            </form>
         </div>
+
+            <div class="col-lg-3">
+                <input type="text" class="form-control" name="address3" placeholder="Post Code">
+            </div>
+            <br>
+            <div class="col-lg-3">
+                <input type="text" class="form-control" name="address3" placeholder="City">
+                <br>
+            </div>
+
+
+        <div class="col-lg-6">
+            <select class="form-control">
+                <option selected>State</option>
+                <option >Johor</option>
+                <option>Melaka</option>
+                <option>Perak</option>
+                <option>Selangor</option>
+                <option>Others</option>
+            </select>
+            <br>
+        </div>
+
+        <div class="col-lg-6">
+        <select class="form-control">
+                <option selected>Country</option>
+                <option >Malaysia</option>
+                <option>Indonesia</option>
+                <option>Thailand</option>
+                <option>Singapore</option>
+            </select>
+        </div>
+
     </div>
 
     <br>
@@ -138,39 +206,36 @@
                 </label>
             </div>
         </div>
-        <br>
-
 
         <div class="col-lg-6">
-            <form class="form-inline">
-                <div class="form-group">
-                    <div class="input-group">
-                        <div class="input-group-addon">SUBTOTAL </div>
-                        <input type="text" class="form-control disabled" placeholder="Amount" disabled>
-                        <div class="input-group-addon">.00</div>
-                    </div>
-                </div>
-            </form>
+            <div role="tabpanel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Term & Condition</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Guaranteed</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Delivery Guides</a></li>
+                </ul>
 
-            <form class="form-inline">
-                <div class="form-group">
-                    <div class="input-group">
-                        <div class="input-group-addon">SHIPPING </div>
-                        <input type="text" class="form-control disabled" placeholder="Amount" disabled>
-                        <div class="input-group-addon">.00</div>
-                    </div>
-                </div>
-            </form>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel euismod nisi.Donec quis diam ut risus ultrices lobortis sit amet nec ex. Donec ex magna, venenatis sed nibh nec, tempor malesuada elit.Curabitur porttitor dolor a ultrices faucibus. Duis ultrices nulla quis justo commodo, consectetur tincidunt lorem fringilla.Maecenas id suscipit ipsum. Nam tincidunt semper nunc in pretium. Sed a mauris tortor. Nullam lacinia nunc elit, ac finibus arcu ultricies non.</div>
 
-            <form class="form-inline">
-                <div class="form-group">
-                    <div class="input-group">
-                        <div class="input-group-addon">TOTAL</div>
-                        <input type="text" class="form-control disabled" placeholder="Amount" disabled>
-                        <div class="input-group-addon">.00</div>
-                    </div>
+                    <div role="tabpanel" class="tab-pane" id="profile"><br><img src="http://placehold.it/80x80">Nulla convallis arcu nec facilisis porttitor. Donec ut sodales velit. Proin tincidunt eros eget mauris scelerisque,
+                        ultricies sollicitudin odio sagittis. Maecenas sapien lacus, cursus a viverra sed, fermentum eget tellus. Curabitur sagittis arcu at gravida commodo.</div>
+                    <div role="tabpanel" class="tab-pane" id="messages"><br>Nulla convallis arcu nec facilisis porttitor. Donec ut sodales velit. Proin tincidunt eros eget mauris scelerisque,
+                        ultricies sollicitudin odio sagittis. Maecenas sapien lacus, cursus a viverra sed, fermentum eget tellus. Curabitur sagittis arcu at gravida commodo.</div>
                 </div>
-            </form>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-offset-9 col-lg-3">
+                <br><br>
+                <button type="button" class="btn btn-success form-control" data-toggle="modal" data-target=".bs-example-modal-sm">CONFIRM</button>
+
+            </div>
         </div>
 
     </div>

@@ -5,7 +5,7 @@ $(function() {
         clientId: '5c437863dd5d4b50b1db9e9786fb9fd4',
         target: 'instafeed',
         get: 'tagged',
-        tagName: 'malaysiastreetwear',
+        tagName: 'teespread',
         links: true,
         limit: 3,
         sortBy: 'most-recent',

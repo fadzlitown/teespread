@@ -11,7 +11,7 @@ Notes:	 Hand coded for Udemy.com
 
 $(function(){
 
-    $('[data-toggle="popover"]').popover({trigger: 'hover','placement': 'right'});
+    $('[data-toggle="popover"]').popover({trigger: 'hover','placement': 'bottom'});
 
     $('#myModal').on('shown.bs.modal', function () {
         $('#myInput').focus()
