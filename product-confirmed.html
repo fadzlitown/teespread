@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title></title>
+    <meta name="description" content="">
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/slider.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="navbar navbar-fixed-top">
+
+        <div class="container">
+            <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="/"><img src="images/logo.png"></a>
+
+            <!--For responsive navbar classes-->
+            <div class="nav-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav pull-left">
+                    <li class="active">
+                        <a href="#">HOME</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">CLOTHING <strong class="caret"></strong></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Tees</a>
+                            </li>
+                            <li>
+                                <a href="#">Hoody</a>
+                            </li>
+                            <li>
+                                <a href="#">Kids</a>
+                            </li>
+                            <li class="divider"></li>
+
+                            <li class="dropdown-header">More Clothing</li>
+                            <li>
+                                <a href="#">Men</a>
+                            </li>
+                            <li>
+                                <a href="#">Woman</a>
+                            </li>
+                        </ul><!-- end dropdown-menu-->
+                    </li>
+                    <li>
+                        <a href="#">CATEGORIES</a>
+                    </li>
+                    <li>
+                        <a href="#">OTHERS</a>
+                    </li>
+                </ul><!-- end pull left-->
+
+
+                <ul class="nav navbar-nav pull-right">
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-search"></span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> <span class="badge">0</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                    </li>
+                </ul>
+
+            </div><!-- end nav-collapse-->
+        </div><!--end container -->
+    </div><!-- end navbar -->
+
+    <br><br><br><br><br><br>
+
+    <div class="row">
+        <div class="col-lg-3 col-sm-3 col-xs-3 text-center">
+            <h5><a href="#">Delivery to production</a> </h5>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </div>
+
+        <div class="col-lg-3 col-sm-3 col-xs-3 text-center">
+            <h5><a href="#">Production in progress</a></h5>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+
+        </div>
+
+        <div class="col-lg-3 col-sm-3 col-xs-3 text-center">
+            <h5><a href="#">Packaging</a></h5>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+
+        </div>
+
+        <div class="col-lg-3 col-sm-3 col-xs-3 text-center">
+            <h5><a href="#">Pos Delivery</a></h5>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+
+        </div>
+
+        <br><br><br>
+
+        <div class="col-lg-12">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
+                    <span class="sr-only">35% Complete</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">Production Status</div>
+                Thanks for purchasing! Your item is being printed.<br>
+                Check your production number: <b>A0292212</b> below to see our progress!
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-success">
+                <div class="panel-heading">Shipping Status</div>
+                Done production! Your item is being delivered by POSLAJU!<br>
+                Check your tracking number: <b>LD198280512MY</b> below!
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+                <div class="col-lg-2">
+                    <label class="sr-only ">Delivery Number</label>
+                </div>
+
+                <div class="col-lg-2">
+                    <input type="text" id="deliveryno" class="form-control"><br>
+                </div>
+
+                <div class="col-lg-2">
+                    <button type="submit" class="btn btn-default" id="deliverySubmit" >Submit</button>
+                    <br><br>
+                </div>
+
+            <form id="myForm" method="post">
+                <div class="col-lg-2">
+                    <label class="sr-only ">Tracking Number</label>
+                </div>
+
+                <div class="col-lg-2">
+                    <input type="text" id="trackno"  class="form-control"><br>
+                </div>
+
+                <div class="col-lg-2">
+                    <button type="submit" id="tracknoSubmit" class="btn btn-default">Submit</button>
+                </div>
+            </form>
+
+        <p id="trackingResult"></p>
+
+        <div class="table-responsive">
+            <table class="table" id="trackingCell">
+                <tr>
+                    <td class="active">Date</td>
+                    <td>Time</td>
+                    <td>Process</td>
+                    <td>Office</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- All Javascript at the bottom of the page for faster page loading -->
+<!-- First try for the online version of jQuery-->
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<!-- If no online access, fallback to our hardcoded version of jQuery -->
+<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+<!-- Bootstrap JS -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/bootstrap-slider.js"></script>
+
+<!-- Custom JS -->
+<script src="includes/js/script.js"></script>
+
+<script>
+    $(function(){
+        $('#tracknoSubmit').click(function(e){
+            e.preventDefault();
+            var trackNo = $('#trackno').val();
+//           try check value LD198280512MY
+
+            $.ajax({
+                url: 'http://poslajutracking.herokuapp.com/track/'+trackNo+'/json',
+                type: 'GET',
+                dataType: 'jsonp',
+                error: function(xhr, status, error) {
+                    console.log("error");
+                },
+                success: function(json) {
+                    var result = jQuery.parseJSON(json);
+//                    console.log(result);
+
+                    for (var i=0; i<result.data.length; i++) {
+                        var row = document.getElementById("trackingCell").insertRow(1);
+                        var date = result.data[i].date;
+                        var dateCol= row.insertCell(0);
+                        dateCol.innerHTML = date;
+
+                        var time = result.data[i].time;
+                        var timeCol= row.insertCell(1);
+                        timeCol.innerHTML = time;
+
+                        var process = result.data[i].process;
+                        var processCol= row.insertCell(2);
+                        processCol.innerHTML = process;
+
+                        var office = result.data[i].office;
+                        var officeCol= row.insertCell(3);
+                        officeCol.innerHTML = office;
+                    }
+//                    document.getElementById("trackingResult").innerHTML = trackingStatus;
+
+                }
+            });
+        });
+    });
+
+
+
+</script>
+
+</body>
+</html>
