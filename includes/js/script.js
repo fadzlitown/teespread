@@ -10,8 +10,6 @@ Notes:	 Hand coded for Udemy.com
 */
 
 $(function(){
-    // With JQuery
-    $("#ex2").slider({});
 
     $('#myTab a').click(function (e) {
         e.preventDefault()
@@ -22,6 +20,4 @@ $(function(){
         e.preventDefault();
         $('#successAlert').slideDown();
     });
-
-
 });
