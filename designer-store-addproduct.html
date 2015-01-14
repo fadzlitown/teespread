@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title></title>
+    <meta name="description" content="">
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+    <!--Jquery CSS-->
+    <link type="text/css" src="includes/css/jquery-ui.min.css" rel="stylesheet">
+    <script src="includes/js/jquery-ui.min.js"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/slider.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="navbar navbar-fixed-top">
+
+        <div class="container">
+            <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="/"><img src="images/logo.png"></a>
+
+            <!--For responsive navbar classes-->
+            <div class="nav-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav pull-left">
+                    <li class="active">
+                        <a href="#">HOME</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">CLOTHING <strong class="caret"></strong></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Tees</a>
+                            </li>
+                            <li>
+                                <a href="#">Hoody</a>
+                            </li>
+                            <li>
+                                <a href="#">Kids</a>
+                            </li>
+                            <li class="divider"></li>
+
+                            <li class="dropdown-header">More Clothing</li>
+                            <li>
+                                <a href="#">Men</a>
+                            </li>
+                            <li>
+                                <a href="#">Woman</a>
+                            </li>
+                        </ul><!-- end dropdown-menu-->
+                    </li>
+                    <li>
+                        <a href="#">CATEGORIES</a>
+                    </li>
+                    <li>
+                        <a href="#">OTHERS</a>
+                    </li>
+                </ul><!-- end pull left-->
+
+                <ul class="nav navbar-nav pull-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Designer's Store <strong class="caret"></strong></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#"><span class="glyphicon glyphicon-home"></span> Manage Store</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="glyphicon glyphicon-cog"></span> Account Setting</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="glyphicon glyphicon-plus"></span> Add Product</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="glyphicon glyphicon-picture"></span> View Store</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="glyphicon glyphicon-usd"></span> Earn</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">Logout</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul><!-- end pull right-->
+
+                <ul class="nav navbar-nav pull-right">
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-search"></span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> <span class="badge">0</span></a>
+                    </li>
+                </ul>
+
+            </div><!-- end nav-collapse-->
+        </div><!--end container -->
+    </div><!-- end navbar -->
+
+    <br><br><br><br>
+
+    <div class="row">
+        <div class="col-lg-2 col-md-12">
+            <br>
+            <button type="button" class="btn btn-primary form-control" data-toggle="modal" data-target=".bs-example-modal-sm">BACK</button>
+        </div>
+
+        <div class="col-lg-8 col-md-12 text-center">
+            <div class="droppable">
+                <h4>Drag Your Model Here!</h4>
+
+                <img class="img-responsive" src="http://placehold.it/710x310">
+            </div>
+        </div>
+
+        <div class="col-lg-2 col-md-12">
+            <br>
+            <button type="button" class="btn btn-success form-control" data-toggle="modal" data-target=".bs-example-modal-sm">CONFIRM</button>
+        </div>
+    </div>
+
+    <br>
+
+<div class="row">
+    <div class="col-offset-1 col-lg-2">
+        <div class="draggable">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/240x300">
+                <h4 class="text-center">T-shirt</h4>
+            </a>
+        </div>
+    </div>
+
+    <div class=" col-lg-2">
+        <div class="draggable">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/240x300">
+                <h4 class="text-center">Hoddie</h4>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-lg-2">
+        <div class="draggable">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/240x300">
+                <h4 class="text-center">Long-Sleeve</h4>
+            </a>
+        </div>
+    </div>
+
+    <div class=" col-lg-2">
+        <div class="draggable">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/240x300">
+                <h4 class="text-center">Kids</h4>
+            </a>
+        </div>
+    </div>
+
+    <div class=" col-lg-2">
+        <div class="draggable">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/240x300">
+                <h4 class="text-center">Women</h4>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<!-- All Javascript at the bottom of the page for faster page loading -->
+
+<!-- Bootstrap JS -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/bootstrap-slider.js"></script>
+
+<!-- Custom JS -->
+<script src="includes/js/script.js"></script>
+
+<script>
+    /*Draggable and droppable*/
+    $( '.draggable').draggable();
+    $( ".droppable" ).droppable({
+        accept: function(d) {
+            if(d.hasClass("draggable")){
+                return true;
+            }
+        },
+        activeClass: "ui-state-hover",
+        hoverClass: "ui-state-active",
+        drop: function( event, ui ) {
+            $( this )
+                    .addClass( "ui-state-highlight" )
+                    .find( "h4" )
+                    .html( "Dropped!")
+
+            //redirect designer's editor page
+            var url = "http://stackoverflow.com";
+            $(location).attr('href',url)
+
+        }
+    });
+
+
+</script>
+
+<script>
+    // With JQuery
+    $("#ex2").slider({});
+
+</script>
+
+</body>
+</html>
