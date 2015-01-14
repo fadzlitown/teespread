@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2827de47-f102-4117-9c25-46120c9a0de0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designer-register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/js/script.js" afterPath="$PROJECT_DIR$/includes/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="teespread.iws" />
@@ -26,73 +27,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/timber_HTML/HTML/index.html">
+      <file leaf-file-name="designer-register.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5" vertical-offset="5925" max-vertical-offset="13650">
-              <caret line="399" column="8" selection-start-line="399" selection-start-column="8" selection-end-line="399" selection-end-column="8" />
+            <state vertical-scroll-proportion="-11.291667" vertical-offset="1244" max-vertical-offset="2895">
+              <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/timber_HTML/HTML/css/style.css">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6596" max-vertical-offset="31170">
-              <caret line="495" column="12" selection-start-line="495" selection-start-column="12" selection-end-line="495" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.46448088" vertical-offset="60" max-vertical-offset="720">
+              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26737967" vertical-offset="1725" max-vertical-offset="7500">
-              <caret line="125" column="62" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.8333333" vertical-offset="3062" max-vertical-offset="3660">
-              <caret line="198" column="55" selection-start-line="198" selection-start-column="55" selection-end-line="198" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-detail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="960" max-vertical-offset="2520">
-              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="151" selection-end-column="18" />
-              <folding>
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-added.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-added.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5384616" vertical-offset="1650" max-vertical-offset="2490">
-              <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="187" selection-end-column="31" />
-              <folding>
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#button#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="n#style#0;n#h5#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -100,41 +50,9 @@
       <file leaf-file-name="product-checkout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product-checkout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.041667" vertical-offset="2612" max-vertical-offset="3105">
-              <caret line="247" column="0" selection-start-line="247" selection-start-column="0" selection-end-line="259" selection-end-column="45" />
-              <folding>
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-confirmed.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-confirmed.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.375" vertical-offset="678" max-vertical-offset="3015">
-              <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
-              <folding>
-                <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assets.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../amanahraya2/public/assets/js/assets.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6129" max-vertical-offset="7620">
-              <caret line="443" column="35" selection-start-line="443" selection-start-column="35" selection-end-line="443" selection-end-column="53" />
-              <folding>
-                <marker date="1416799555000" expanded="false" signature="867:881" placeholder="..." />
-                <marker date="1416799555000" expanded="false" signature="3738:3752" placeholder="..." />
-                <marker date="1416799555000" expanded="false" signature="7835:7849" placeholder="..." />
-                <marker date="1416799555000" expanded="false" signature="7922:7936" placeholder="..." />
-                <marker date="1416799555000" expanded="false" signature="12287:12301" placeholder="..." />
-                <marker date="1416799555000" expanded="false" signature="13361:13375" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-10.041667" vertical-offset="3284" max-vertical-offset="4005">
+              <caret line="235" column="45" selection-start-line="235" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,18 +75,20 @@
         <option value="$PROJECT_DIR$/product-list.html" />
         <option value="$PROJECT_DIR$/product-added.html" />
         <option value="$PROJECT_DIR$/product-detail.html" />
-        <option value="$PROJECT_DIR$/includes/js/script.js" />
         <option value="$PROJECT_DIR$/includes/js/app.js" />
         <option value="$PROJECT_DIR$/product-checkout.html" />
         <option value="$PROJECT_DIR$/product-confirmed.html" />
+        <option value="$PROJECT_DIR$/designers/designer-register.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/designer-register.html" />
+        <option value="$PROJECT_DIR$/includes/js/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
+    <option name="x" value="225" />
     <option name="y" value="22" />
-    <option name="width" value="1439" />
+    <option name="width" value="1196" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -197,6 +117,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,45 +186,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teespread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teespread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teespread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teespread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,12 +207,21 @@
       <recent name="$PROJECT_DIR$/bootstrap/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bootstrap/css" />
       <recent name="$PROJECT_DIR$/includes/js" />
       <recent name="$PROJECT_DIR$/bootstrap/js" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -339,12 +232,14 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
       <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -352,16 +247,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
-      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -405,14 +290,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="22" width="1439" height="878" extended-state="6" />
-    <editor active="false" />
+    <frame x="225" y="22" width="1196" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30964467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17430025" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2677665" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.174189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20170213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -420,12 +305,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -442,9 +327,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21921708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -467,14 +352,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/timber_HTML/HTML/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="31170">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3381" max-vertical-offset="5115">
@@ -730,22 +607,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/timber_HTML/HTML/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="5925" max-vertical-offset="13650">
-          <caret line="399" column="8" selection-start-line="399" selection-start-column="8" selection-end-line="399" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/timber_HTML/HTML/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6596" max-vertical-offset="31170">
-          <caret line="495" column="12" selection-start-line="495" selection-start-column="12" selection-end-line="495" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/js/modernizr-2.6.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="497">
@@ -782,14 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12684989" vertical-offset="0" max-vertical-offset="473">
-          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/js/instafeed.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.032608695" vertical-offset="0" max-vertical-offset="460">
@@ -802,85 +655,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22198732" vertical-offset="0" max-vertical-offset="473">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-list.html">
+    <entry file="file://$PROJECT_DIR$/../amanahraya2/public/assets/js/assets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.8333333" vertical-offset="3062" max-vertical-offset="3660">
-          <caret line="198" column="55" selection-start-line="198" selection-start-column="55" selection-end-line="198" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="960" max-vertical-offset="2520">
-          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="151" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.879046" vertical-offset="6129" max-vertical-offset="7620">
+          <caret line="443" column="35" selection-start-line="443" selection-start-column="35" selection-end-line="443" selection-end-column="53" />
           <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1416799555000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1416799555000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1416799555000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1416799555000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1416799555000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1416799555000" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-added.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5384616" vertical-offset="1650" max-vertical-offset="2490">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2670" max-vertical-offset="3390">
           <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="187" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2010" max-vertical-offset="3420">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="151" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/timber_HTML/HTML/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3590164" vertical-offset="6596" max-vertical-offset="31170">
+          <caret line="495" column="12" selection-start-line="495" selection-start-column="12" selection-end-line="495" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/timber_HTML/HTML/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.102389075" vertical-offset="5925" max-vertical-offset="13650">
+          <caret line="399" column="8" selection-start-line="399" selection-start-column="8" selection-end-line="399" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3088737" vertical-offset="3074" max-vertical-offset="3660">
+          <caret line="217" column="0" selection-start-line="217" selection-start-column="0" selection-end-line="238" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.48464164" vertical-offset="6809" max-vertical-offset="7500">
+          <caret line="435" column="33" selection-start-line="435" selection-start-column="33" selection-end-line="435" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-confirmed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6911263" vertical-offset="750" max-vertical-offset="3015">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#button#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#h5#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-checkout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.041667" vertical-offset="2612" max-vertical-offset="3105">
-          <caret line="247" column="0" selection-start-line="247" selection-start-column="0" selection-end-line="259" selection-end-column="45" />
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-10.041667" vertical-offset="3284" max-vertical-offset="4005">
+          <caret line="235" column="45" selection-start-line="235" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../amanahraya2/public/assets/js/assets.js">
+    <entry file="file://$PROJECT_DIR$/designer-register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6129" max-vertical-offset="7620">
-          <caret line="443" column="35" selection-start-line="443" selection-start-column="35" selection-end-line="443" selection-end-column="53" />
-          <folding>
-            <marker date="1416799555000" expanded="false" signature="867:881" placeholder="..." />
-            <marker date="1416799555000" expanded="false" signature="3738:3752" placeholder="..." />
-            <marker date="1416799555000" expanded="false" signature="7835:7849" placeholder="..." />
-            <marker date="1416799555000" expanded="false" signature="7922:7936" placeholder="..." />
-            <marker date="1416799555000" expanded="false" signature="12287:12301" placeholder="..." />
-            <marker date="1416799555000" expanded="false" signature="13361:13375" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-11.291667" vertical-offset="1244" max-vertical-offset="2895">
+          <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-confirmed.html">
+    <entry file="file://$PROJECT_DIR$/includes/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.375" vertical-offset="678" max-vertical-offset="3015">
-          <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26737967" vertical-offset="1725" max-vertical-offset="7500">
-          <caret line="125" column="62" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.46448088" vertical-offset="60" max-vertical-offset="720">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
           <folding />
         </state>
       </provider>
