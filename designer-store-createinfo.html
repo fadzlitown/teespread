@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title></title>
+    <meta name="description" content="">
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+    <!--Jquery CSS-->
+    <link type="text/css" src="includes/css/jquery-ui.min.css" rel="stylesheet">
+    <script src="includes/js/jquery-ui.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/slider.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+<div class="navbar navbar-fixed-top">
+
+    <div class="container">
+        <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="/"><img src="images/logo.png"></a>
+
+        <!--For responsive navbar classes-->
+        <div class="nav-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav pull-left">
+                <li class="active">
+                    <a href="#">HOME</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">CLOTHING <strong class="caret"></strong></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Tees</a>
+                        </li>
+                        <li>
+                            <a href="#">Hoody</a>
+                        </li>
+                        <li>
+                            <a href="#">Kids</a>
+                        </li>
+                        <li class="divider"></li>
+
+                        <li class="dropdown-header">More Clothing</li>
+                        <li>
+                            <a href="#">Men</a>
+                        </li>
+                        <li>
+                            <a href="#">Woman</a>
+                        </li>
+                    </ul><!-- end dropdown-menu-->
+                </li>
+                <li>
+                    <a href="#">CATEGORIES</a>
+                </li>
+                <li>
+                    <a href="#">OTHERS</a>
+                </li>
+            </ul><!-- end pull left-->
+
+            <ul class="nav navbar-nav pull-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Designer's Store <strong class="caret"></strong></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><span class="glyphicon glyphicon-home"></span> Manage Store</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="glyphicon glyphicon-cog"></span> Account Setting</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="glyphicon glyphicon-plus"></span> Add Product</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="glyphicon glyphicon-picture"></span> View Store</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="glyphicon glyphicon-usd"></span> Earn</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Logout</a>
+                        </li>
+                    </ul>
+
+                </li>
+            </ul><!-- end pull right-->
+
+            <ul class="nav navbar-nav pull-right">
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-search"></span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> <span class="badge">0</span></a>
+                </li>
+            </ul>
+
+        </div><!-- end nav-collapse-->
+    </div><!--end container -->
+</div><!-- end navbar -->
+
+<br><br><br>
+
+
+<div class="row">
+    <div class="col-lg-2 col-md-12">
+        <br>
+        <button type="button" class="btn btn-primary form-control" data-toggle="modal" data-target=".bs-example-modal-sm"><span class="glyphicon glyphicon-chevron-left"> CREATE PRODUCT</span></button>
+    </div>
+
+    <div class="col-lg-8 col-md-12 text-center">
+
+        <h3>DESIGN INFO</h3>
+    </div>
+
+    <div class="col-lg-2 col-md-12">
+        <br>
+        <button type="button" class="btn btn-success form-control" data-toggle="modal" data-target=".bs-example-modal-sm">CONFIRM <span class="glyphicon glyphicon-chevron-right"></span></button>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-lg-6 text-center">
+        <img class="img-responsive" src="http://placehold.it/540x550">
+    </div>
+
+    <div class="col-lg-6">
+        <div class="row">
+            <div class="col-lg-3">
+                <h5>PRODUCT TITLE :</h5>
+            </div>
+            <div class="col-lg-9">
+                <input class="form-control" type="text" placeholder="Title name.. eg. Seni Retro"/>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <h5>TYPE :</h5>
+            </div>
+            <div class="col-lg-9">
+                <select class="form-control">
+                    <option>Design Categories</option>
+                    <option>Art</option>
+                    <option>Sport</option>
+                    <option>Typography</option>
+                </select>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <h5>KEYWORDS :</h5>
+            </div>
+            <div class="col-lg-9">
+                <textarea type="text" rows="3" class="form-control" placeholder="Keyword here.."></textarea>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-lg-3">
+                <h5>BASE PRICE :</h5>
+            </div>
+            <div class="col-lg-9">
+                <input type="text" class="form-control disabled" value="RM 40.00" disabled>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-lg-3">
+                <h5>SELL PRICE :</h5>
+            </div>
+            <div class="col-lg-9">
+                <input type="text" class="form-control disabled" placeholder="Your price.." />
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-lg-3">
+                <h5>DISCOUNT :</h5>
+            </div>
+            <div class="col-lg-9">
+                <select class="form-control">
+                    <option>NO DISCOUNT PROMOTION</option>
+                    <option>10%</option>
+                    <option>20%</option>
+                    <option>30%</option>
+                    <option>40%</option>
+                    <option>50%</option>
+                    <option>60%</option>
+                    <option>70%</option>
+                    <option>80%</option>
+                    <option>90%</option>
+                </select>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <div class="col-lg-12">
+        <br><br>
+        <blockquote>
+            <p>
+                Read & follow the <a href="#">design guidelines<a></a>.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </blockquote>
+    </div>
+
+</div>
+
+<br><br>
+</div>
+
+<!-- All Javascript at the bottom of the page for faster page loading -->
+<!-- Bootstrap JS -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/bootstrap-slider.js"></script>
+
+<!-- Custom JS -->
+<script src="includes/js/script.js"></script>
+<script>
+    // With JQuery
+    $("#ex2").slider({});
+
+</script>
+
+</body>
+</html>
