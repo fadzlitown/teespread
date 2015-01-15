@@ -1,16 +1,24 @@
-/*
-
-My Custom JS
-============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
 
 $(function(){
 
+
+    /*
+    * Bootstrap Components
+    * */
+    $(".dropdown-menu li a").click(function(){
+        $(this).parents(".btn-group").find('.btnShow').text($(this).text());
+        $(this).parents(".btn-group").find('.btnShow').val($(this).data('value'));
+    });
+
+    $(".dropdown-menu li a").hover(function() {
+        $(this).parents(".btn-group").find('.btnShow').text($(this).text());
+    });
+
+    /*End Bootstrap Component*/
+
+    /*
+    * JQUERY Components
+    * */
     $('[data-toggle="popover"]').popover({trigger: 'hover','placement': 'bottom'});
 
     $('#myModal').on('shown.bs.modal', function () {
@@ -27,25 +35,85 @@ $(function(){
         $('#successAlert').slideDown();
     });
 
+    //This code is not belong to me
+    // This script is an adaption of the following example:
+    // http://www.simonbattersby.com/demos/vertical_scrollbar_demo.htm & http://jsfiddle.net/mitchmalone/XRnxL/
 
-    /*not working yet, smooth scrolling */
-    $("ul li <a href='#'>").on('click', function(e) {
+    $.fn.makeScroll = function() {
+        $(this).each(function() {
+            $(this).css('overflow', 'hidden');
 
-        // prevent default anchor click behavior
-        e.preventDefault();
+            var difference = $(this).find('.scroll-content').height() - $(this).height();
 
-        // store hash
-        var hash = this.hash;
+            if (difference > 0) {
+                var proportion = difference / $(this).find('.scroll-content').height();
+                var handleHeight = Math.round((1 - proportion) * $(this).height());
+                handleHeight -= handleHeight % 2;
 
-        // animate
-        $('html, body').animate({
-            scrollTop: $(this.hash).offset().top
-        }, 300, function(){
+                $(this).after('<\div class="slider-wrap"><\div class="slider-vertical"><\/div><\/div>');
+                $(this).next('.slider-wrap').height($(this).height());
 
-            // when done, add hash to url
-            // (default click behaviour)
-            window.location.hash = hash;
+                $(this).next('.slider-wrap').find(".slider-vertical").slider({
+                    orientation: 'vertical',
+                    range: 'max',
+                    min: 0,
+                    max: 100,
+                    value: 100,
+                    slide: function(event, ui) {
+                        var topValue = -((100 - ui.value) * difference / 100);
+                        $(this).parents(".slider-wrap").prev(".scroll-pane").find('.scroll-content').css({
+                            top: topValue
+                        });
+                    }
+                });
+
+                $(".ui-slider-handle").css({
+                    height: handleHeight,
+                    'margin-bottom': -0.5 * handleHeight
+                });
+
+                var origSliderHeight = $(this).next('.slider-wrap').find(".slider-vertical").height();
+                var sliderHeight = origSliderHeight - handleHeight;
+                var sliderMargin = (origSliderHeight - sliderHeight) * 0.5;
+                $(".ui-slider").css({
+                    height: sliderHeight,
+                    'margin-top': sliderMargin
+                });
+                $(".ui-slider-range").css({
+                    top: -sliderMargin
+                });
+
+                $(this).click(function() {
+                    $(this).next('.slider-wrap').find(".slider-vertical").slider("value", 0);
+                    $(this).find('.scroll-content').css({
+                        top: -difference
+                    });
+                })
+            }
+
+            $(this).add($(this).find(".slider-wrap")).mousewheel(function(event, delta) {
+                var speed = 5;
+                var sliderVal = $(this).next('.slider-wrap').find(".slider-vertical").slider("value");
+
+                sliderVal += (delta * speed);
+
+                $(this).next('.slider-wrap').find(".slider-vertical").slider("value", sliderVal);
+
+                var topValue = -((100 - sliderVal) * difference / 100);
+
+                if (topValue > 0) topValue = 0;
+                if (Math.abs(topValue) > difference) topValue = (-1) * difference;
+
+                $(this).find(".scroll-content").css({
+                    top: topValue
+                });
+                event.preventDefault();
+            });
         });
+    };
 
-    });
+    /*End JQuery Components*/
+
+
+
  });
