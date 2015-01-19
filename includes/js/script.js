@@ -14,6 +14,11 @@ $(function(){
         $(this).parents(".btn-group").find('.btnShow').text($(this).text());
     });
 
+    $('.collapse').collapse();
+    $('#myCollapsible').collapse({
+        toggle: false
+    })
+
     /*End Bootstrap Component*/
 
     /*
