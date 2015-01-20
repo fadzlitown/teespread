@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2827de47-f102-4117-9c25-46120c9a0de0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin-login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designer-register.html" afterPath="$PROJECT_DIR$/designer-register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designer-store-addproduct.html" afterPath="$PROJECT_DIR$/designer-store-addproduct.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designer-store-createinfo.html" afterPath="$PROJECT_DIR$/designer-store-createinfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designer-store-createproduct.html" afterPath="$PROJECT_DIR$/designer-store-createproduct.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designer-store-manage.html" afterPath="$PROJECT_DIR$/designer-store-manage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designer-store-viewproduct.html" afterPath="$PROJECT_DIR$/designer-store-viewproduct.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designer-store.html" afterPath="$PROJECT_DIR$/designer-store.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin-design-approval.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="teespread.iws" />
@@ -36,8 +29,8 @@
       <file leaf-file-name="designer-store.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/designer-store.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="1875" max-vertical-offset="3315">
-              <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="139" selection-end-column="86" />
+            <state vertical-scroll-proportion="-5.625" vertical-offset="1875" max-vertical-offset="3315">
+              <caret line="134" column="49" selection-start-line="134" selection-start-column="49" selection-end-line="134" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -46,8 +39,8 @@
       <file leaf-file-name="designer-store-manage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/designer-store-manage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5" vertical-offset="465" max-vertical-offset="3330">
-              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="70" />
+            <state vertical-scroll-proportion="-10.0" vertical-offset="1725" max-vertical-offset="3330">
+              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="143" selection-end-column="14" />
               <folding>
                 <element signature="tag#div#0;tag#div#1;tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -55,21 +48,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin-login.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin-login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6825095" vertical-offset="360" max-vertical-offset="1695">
-              <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1695">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="designer-store-createinfo.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designer-store-createinfo.html">
+      <file leaf-file-name="admin-design-approval.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin-design-approval.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.875" vertical-offset="3597" max-vertical-offset="4110">
-              <caret line="254" column="0" selection-start-line="254" selection-start-column="0" selection-end-line="265" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.31558937" vertical-offset="1244" max-vertical-offset="2250">
+              <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#h5#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-added.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product-added.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.25" vertical-offset="1740" max-vertical-offset="3390">
+              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="138" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -110,6 +118,7 @@
         <option value="$PROJECT_DIR$/designer-store-viewproduct.html" />
         <option value="$PROJECT_DIR$/designer-store-manage.html" />
         <option value="$PROJECT_DIR$/admin-login.html" />
+        <option value="$PROJECT_DIR$/admin-design-approval.html" />
       </list>
     </option>
   </component>
@@ -211,20 +220,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teespread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teespread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,10 +367,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="22" width="1384" height="878" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30964467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26463103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26463103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21716802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -433,13 +428,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/timber_HTML/HTML/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="31170">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3804" max-vertical-offset="5055">
@@ -602,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-added.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2670" max-vertical-offset="3390">
-          <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="187" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/timber_HTML/HTML/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3590164" vertical-offset="6596" max-vertical-offset="31170">
@@ -711,6 +692,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05836576" vertical-offset="0" max-vertical-offset="3300">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -718,14 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3307393" vertical-offset="2050" max-vertical-offset="2895">
           <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designer-store.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="1875" max-vertical-offset="3315">
-          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="139" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,34 +745,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designer-store-createinfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.875" vertical-offset="3597" max-vertical-offset="4110">
-          <caret line="254" column="0" selection-start-line="254" selection-start-column="0" selection-end-line="265" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/designer-store-createinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41520467" vertical-offset="3597" max-vertical-offset="4110">
+          <caret line="254" column="0" selection-start-line="254" selection-start-column="0" selection-end-line="265" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-added.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="1740" max-vertical-offset="3390">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="138" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1695">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-store.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="1875" max-vertical-offset="3315">
+          <caret line="134" column="49" selection-start-line="134" selection-start-column="49" selection-end-line="134" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/designer-store-manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="465" max-vertical-offset="3330">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="70" />
+        <state vertical-scroll-proportion="-10.0" vertical-offset="1725" max-vertical-offset="3330">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="143" selection-end-column="14" />
           <folding>
             <element signature="tag#div#0;tag#div#1;tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin-login.html">
+    <entry file="file://$PROJECT_DIR$/admin-design-approval.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6825095" vertical-offset="360" max-vertical-offset="1695">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
-          <folding />
+        <state vertical-scroll-proportion="0.31558937" vertical-offset="1244" max-vertical-offset="2250">
+          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#h5#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
